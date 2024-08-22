@@ -1,0 +1,327 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+
+    padding: 10px 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar-items {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.navbar-items li a {
+    color: #eeee;
+
+    text-transform: uppercase;
+}
+
+#login-btn {
+    background-color: #2cc76a;
+    color: #fff;
+
+    border-radius: 4px;
+
+    padding: 16px 20px;
+}
+.banner{
+    background-image: url("../img/mainbanner.png");
+    padding: 50px 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.banner h1,
+.banner strong{
+    color: #fff;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 54px;
+}
+.banner strong{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.classe_beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.classe_beneficios ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 50px;
+}
+.benificios{
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.fa-shield-alt {
+    color: #0fbd49;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.fa-rocket{
+    color: #ff3535;
+    font-size: 40px;  
+    margin-bottom: 10px  
+}
+ .fa-comments {
+     color: #f89008;
+     font-size: 40px;
+     margin-bottom: 10px;
+}
+
+.planos {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    text-indent: 8px; 
+}
+
+.precos {
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.precos h4 {
+    list-style: none;
+    color: #000000;
+    font-weight: bold;
+    background-color: #dddada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+.card header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    background-color: #0b233b;
+    padding: 10px;
+    
+    
+}
+.card h3 {
+    width: 100%;
+    color: #ffffff;
+    
+}
+
+.preco {
+    text-align: center;
+    background-color: #0fbd49;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    
+}
+.precocomprado{
+    text-align: center;
+    background-color: #bd0f0f;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+.precocomprado p{
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.preco p {
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.bnt-selecionar {
+    width: 100%;
+    color: #ffffff;
+    background-color: #0fbd49;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.selecionar{
+    width: 100%;
+    color: #ffffff;
+    background-color: #c73737;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.dominio{
+    width: 100%;
+    height: 450px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #414549;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.dominio h1{
+    color: #fff;
+    margin-bottom: 16px;
+    
+}
+.dominio p{
+    color: #d3cece;
+    margin-bottom: 16px;
+}
+.pesquisa{
+    font-size: 20px;
+    height: 70px;
+    width: 65%;
+    color: #ffffff;
+    gap: 10px;
+    border-radius: 8px;
+    text-indent: 20px;
+}
+.buscar{
+    font-size: 30px;
+    margin-top: 24px;
+    background-color: #2cc76a;
+    color: #fff;
+
+    border-radius: 8px;
+
+    padding: 16px 20px;
+}
+.contato {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 8em;
+}
+
+.contato h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.contato p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contato input,
+.contato textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contato textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contato input[type="submit"] {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2cc76a;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+    @media screen and (max-width: 576px) {
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+
+    .contato {
+        padding: 3em 2em;
+    }
+
+    .contato input,
+    .contatotextarea {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+}
